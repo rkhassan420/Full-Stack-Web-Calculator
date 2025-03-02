@@ -1,0 +1,95 @@
+.theme-toper{
+    margin: 10px 25px;
+    font-weight: 600;
+    
+}
+
+.theme-container{
+    
+    border-radius: 3px;
+    margin: 0px 25px;    
+    background-color: var(--white-bg-color);
+    padding: 25px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: none;
+    
+}
+
+.theme-container img{
+    width: auto;
+    height: 20px;
+    float: left;
+    
+}
+
+.theme-title{
+    font-size: 13px;
+    color: gray;
+}
+
+.theme-btn{
+    margin: 0px 25px;
+    padding: 15px;
+    
+    background-color: var(--white-bg-color);
+}
+
+.theme-btn li{
+    
+    display: flex;    
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.theme-btn li img{
+    width: auto;
+    height: 25px;
+       
+}
+
+.theme-btn li img:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.theme-about-title{
+    margin: 10px 25px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.theme-about{
+    
+    border-radius: 3px;
+    margin: 0px 25px;
+    background-color: var(--white-bg-color);
+    padding: 25px;
+    line-height: 25px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.theme-about img{
+    width: auto;
+    height: 20px;
+    
+}
+
+.theme-rights{
+    font-size: 13px;
+    color: gray;
+        
+}
+
+

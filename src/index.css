@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Source Code Pro", monospace;  
+
+    background-color: var(--background);
+    color: var(--white-text-color);
+    
+}
+
+
+.light-theme{
+    --background:#f4f3f2;
+    --header-bg-color:#f4f4f4;
+    --white-bg-color:whitesmoke;
+    --sidebar-hover-color:#E5E4E2;
+    --input-color:black;
+    --sign-bg-color:#f1f1f1;
+    --num-bg-color: #FFFFFF;
+    --equal-bg-color:#246BCE;
+    --equal-color:white;
+    --btns-border:1px solid #ccc;
+}
+
+.dark-theme{
+    --background:#1a1a1a;
+    --white-text-color:white;
+    --header-bg-color:#1a1a1a;
+    --white-bg-color:#222222;
+    --sidebar-hover-color:#2e2e2e;
+    --input-color:whitesmoke;
+    --sign-bg-color:#222222;
+    --num-bg-color: #292929;
+    --equal-bg-color:#6CB4EE;
+    --btns-border:none;
+    --equal-color:black;
+   
+}
